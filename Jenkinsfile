@@ -5,7 +5,7 @@ pipeline {
             steps {
                 // This assumes your repo is named 'Exp10' or similar
                 // Update the URL to match your GitHub repo
-                git branch: 'main', url: 'https://github.com/<your-username>/<your-repo-name>.git'
+                git branch: 'main', url: 'https://github.com/Lamaq-Mujpurwala/mlops-iris-demo.git'
             }
         }
         stage('Install Dependencies') {
