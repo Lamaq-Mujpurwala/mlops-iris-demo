@@ -17,7 +17,7 @@ pipeline {
         }
         stage('Retrain Model') {
             steps {
-                bat 'python3 retrain.py'
+                bat 'python retrain.py'
             }
         }
         stage('Deploy Model') {
